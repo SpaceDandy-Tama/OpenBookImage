@@ -110,7 +110,6 @@ namespace OpenBookImageTool
                 }
 
                 string obiFile = LoadAndConvertImageToObi(imagePath, ref outputFileName, resizingMode, applyDithering, useRLE, maxWidth, maxHeight, bpp);
-                LoadAndConvertObiToBmp(obiFile, outputFileName);
             }
         }
 
